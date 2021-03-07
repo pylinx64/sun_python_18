@@ -11,17 +11,17 @@ t.shape('turtle')
 # скорость черепашки
 t.speed(0.5)
 
-
+t.pensize(10)
 #while True:
-
-begin_fill()
+t.color('#05FFEB', '#11FF00')
+t.begin_fill()
 t.forward(u)
 t.left(i)
 t.forward(u)
 t.left(i)
 t.forward(u)
 t.left(i)
-end_fill()
+t.end_fill()
 
 #-----------------
 time.sleep(100)
